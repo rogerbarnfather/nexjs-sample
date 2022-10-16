@@ -1,14 +1,8 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+:root {
+  --primary: #000;
+  --secondary: #888;
+  --tertiary: #ccc;
+  --text-color: #fff;
 }
 
 * {
@@ -19,8 +13,67 @@ a {
   html {
     color-scheme: dark;
   }
-  body {
-    color: white;
-    background: black;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--text-color);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1024px;
+  border: 4px solid var(--secondary);
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: var(--secondary);
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: var(--tertiary);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+nav li {
+  padding: 20px;
+}
+
+main {
+  background-color:rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+.layout-message {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
   }
 }
