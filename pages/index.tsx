@@ -8,9 +8,17 @@ const Home: NextPage = () => {
         <title>Home</title>
       </Head>
 
-      <h2>Home</h2>
+      <h2>Welcome</h2>
 
-      <p>This is the home page</p>
+      <p>
+        NOTE: Please make sure this app is being built and run in production
+        mode. It will not work correctly in development mode.
+      </p>
+
+      <p>
+        That said, please navigate around using the links at the top of the
+        page.
+      </p>
     </div>
   )
 }

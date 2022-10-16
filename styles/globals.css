@@ -66,6 +66,24 @@ main {
   padding: 20px;
 }
 
+.clever-routes-form {
+  max-width: 250px;
+}
+
+.clever-routes-form label {
+  width: 30%;
+  text-align: center;
+}
+
+.clever-routes-form input[type="text"] {
+  width: 70%;
+}
+
+.clever-routes-form p {
+  display: flex;
+  justify-content: space-between;
+}
+
 .layout-message {
   text-align: center;
 }

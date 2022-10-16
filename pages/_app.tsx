@@ -7,20 +7,20 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="container">
       <Head>
-        <title>NextJS Sample</title>
-        <meta name="description" content="A sample of what NextJS can do" />
+        <title>Next.js Sample</title>
+        <meta name="description" content="A sample of what Next.js can do" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header>
-        <h1>NextJS Sample</h1>
+        <h1>Next.js Sample</h1>
 
         <Navigation />
       </header>
 
       <p className="layout-message">
         This message is on every page because it is in the &quot;_app.tsx&quot;
-        file
+        file.
       </p>
 
       <main>

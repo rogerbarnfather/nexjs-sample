@@ -27,6 +27,18 @@ const Navigation = () => {
             <a title="See how dynamic server side rendering (SSR) works">SSR</a>
           </Link>
         </li>
+
+        <li>
+          <Link href="/clever-routes">
+            <a title="See how clever routing works">Clever Routes</a>
+          </Link>
+        </li>
+
+        <li>
+          <Link href="/apis">
+            <a title="See how Next.js APIs work">APIs</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   )
