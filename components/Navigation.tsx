@@ -17,6 +17,12 @@ const Navigation = () => {
         </li>
 
         <li>
+          <Link href="/static-paths">
+            <a title="See how static site paths work">Static Paths</a>
+          </Link>
+        </li>
+
+        <li>
           <Link href="/revalidate">
             <a title="See how incremental static regeneration works">ISR</a>
           </Link>

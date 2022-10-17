@@ -1,0 +1,17 @@
+[
+  {
+    "type": "cat",
+    "name": "Felix",
+    "colour": "black"
+  },
+  {
+    "type": "dog",
+    "name": "Rex",
+    "colour": "brown"
+  },
+  {
+    "type": "goldfish",
+    "name": "Nemo",
+    "colour": "gold"
+  }
+]
